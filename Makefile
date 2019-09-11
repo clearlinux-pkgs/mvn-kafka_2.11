@@ -1,0 +1,5 @@
+PKG_NAME := mvn-kafka_2.11
+URL = https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.11/0.8.2.2/kafka_2.11-0.8.2.2-sources.jar
+ARCHIVES = https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.11/0.10.2.1/kafka_2.11-0.10.2.1.jar : https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.11/0.10.2.1/kafka_2.11-0.10.2.1.pom : https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.11/0.11.0.2/kafka_2.11-0.11.0.2.jar : https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.11/0.11.0.2/kafka_2.11-0.11.0.2.pom : https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.11/0.8.2.2/kafka_2.11-0.8.2.2.jar : https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.11/0.8.2.2/kafka_2.11-0.8.2.2.pom : https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.11/0.9.0.1/kafka_2.11-0.9.0.1.jar : https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.11/0.9.0.1/kafka_2.11-0.9.0.1.pom : https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.11/2.0.1/kafka_2.11-2.0.1.jar : https://repo.maven.apache.org/maven2/org/apache/kafka/kafka_2.11/2.0.1/kafka_2.11-2.0.1.pom :
+
+include ../common/Makefile.common
